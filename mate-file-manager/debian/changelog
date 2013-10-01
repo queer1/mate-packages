@@ -1,8 +1,8 @@
-mate-file-manager (1.6.1-4) UNRELEASED; urgency=low
+mate-file-manager (1.6.2-1) petra; urgency=low
 
-  * Add gvfs to Depends.
+  * New upstream version
 
- -- Stefano Karapetsas <stefano@karapetsas.com>  Fri, 12 Jul 2013 20:33:32 +0200
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 01 Oct 2013 14:54:33 +0100
 
 mate-file-manager (1.6.1-3) unstable; urgency=low
 

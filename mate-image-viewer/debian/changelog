@@ -1,3 +1,9 @@
+mate-image-viewer (1.6.1-1) petra; urgency=low
+
+  * New upstream version
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 01 Oct 2013 14:51:04 +0100
+
 mate-image-viewer (1.6.0-3) unstable; urgency=low
 
   * Cherry pick patch to fix MateConf convert file.

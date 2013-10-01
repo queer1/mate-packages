@@ -1,5 +1,6 @@
-libmatekeyring (1.6.1-1) unstable; urgency=low
+libmatekeyring (1.6.0-1) petra; urgency=low
 
-  * Initial release.
+  * New upstream version
 
- -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 14 May 2013 18:26:40 +0200
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 01 Oct 2013 14:55:39 +0100
+
