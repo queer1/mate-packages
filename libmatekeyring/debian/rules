@@ -6,11 +6,11 @@ DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 	dh $@
 
 override_dh_install:
-	rm -fv debian/tmp/usr/lib/*/*.la 
+	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la 
 	dh_install --list-missing
 
 override_dh_auto_configure:
-	dh_auto_configure -- --disable-static --libexecdir=/usr/lib/$(DEB_HOST_MULTIARCH)/mate-keyring
+	./autogen.sh --disable-static --prefix=/usr --libdir=\$${prefix}/lib/$(DEB_HOST_MULTIARCH)
 
 override_dh_strip:
 	dh_strip --dbg-package=libmate-keyring-dbg
