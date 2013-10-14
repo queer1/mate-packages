@@ -25,8 +25,8 @@ Build-Depends: cdbs,
                gstreamer0.10-plugins-base,
                gstreamer0.10-plugins-good,
                mate-common,
-               libmatedesktop-dev,
-               libmatepanelapplet-dev
+               libmate-desktop-dev,
+               libmate-panel-applet-dev
 
 Package: mate-media
 Architecture: all
