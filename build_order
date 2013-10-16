@@ -29,6 +29,7 @@
     mate-system-monitor
     mate-icon-theme-faenza
     mate-applets
+    mate-file-manager-sendto
     mate-bluetooth
 
     python-caja
@@ -38,8 +39,7 @@
     mate-document-viewer   
     mate-file-manager-gksu
     mate-file-manager-image-converter
-    mate-file-manager-open-terminal
-    mate-file-manager-sendto
+    mate-file-manager-open-terminal  
     mate-file-manager-share
     mate-indicator-applet
     mate-menu-editor
