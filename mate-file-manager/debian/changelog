@@ -1,3 +1,10 @@
+mate-file-manager (1.6.2-2) petra; urgency=low
+
+  * Cherry pick upstream patch:
+	08-fix-segfault.patchx
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Mon, 25 Nov 2013 15:31:22 +0100
+
 mate-file-manager (1.6.2-1) petra; urgency=low
 
   * New upstream version
